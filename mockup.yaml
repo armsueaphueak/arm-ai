@@ -3,7 +3,7 @@ name: deploy webapp to azure
 
 # Define environment variables for the workflow
 env:
-  AZURE_WEBAPP_NAME: folkmoz-ai # Your Azure Web App name from the Azure portal
+  AZURE_WEBAPP_NAME: arm-ai # Your Azure Web App name from the Azure portal
   NODE_VERSION: "20.x" # Node.js version to use
 
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # Variable for the API key in my WebApp
