@@ -1,7 +1,7 @@
 name: deploy webapp to azure
 
 env:
-  AZURE_WEBAPP_NAME: folkmoz-ai
+  AZURE_WEBAPP_NAME: arm-ai
   NODE_VERSION: "20.x"
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   DATABASE_URL: ${{ secrets.DATABASE_URL }}
